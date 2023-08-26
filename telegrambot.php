@@ -3,7 +3,7 @@
     جميع الحقوق محفوظة ل رامي خالد ومحاولة التعديل هيؤدي لتوقف البوت
     */
     ob_start();
-    $token = '6695466180:AAFoDLYY8CpCF6dMq3wEQcrEut4mm9zWplI';
+    $token = '6568474124:AAE-0Vu9EU73WUwlB1ChUqO2QXViG_7BTuQ';
     define('API_KEY',$token);//add_token
     function bot($method,$datas=[]){
         $url = "https://api.telegram.org/bot".API_KEY."/".$method;
